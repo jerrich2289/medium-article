@@ -1,0 +1,69 @@
+
+h1 {
+  color: #adb5bd;
+  font-size: 24px;
+  letter-spacing: 5px;
+  line-height: 1.6;
+  font-family: rounded elegance;
+}
+
+h2 {
+  color: #495057;
+  front-size: 18px;
+  font-family: rounded elegance;
+}
+
+p {
+  color: #adb5bd;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: rounded elegance;
+}
+
+a {
+  color: #ffe0f7;
+  front-size: 16px;
+  font-family: rounded elegance;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cf7500;
+}
+
+img {
+  width: 1000;
+  align-content: center;
+}
+
+.container {
+  padding: 30px;
+  width: 1000px;
+  margin: 24px auto;
+  text-align: center;
+
+}
+
+.banner {
+    background-image: url(https://source.unsplash.com/random/1000x500);
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+}
+
+@media (max-width: 960px) {
+  .card_white {
+    width: 700px;
+
+  }
+}
+@media (max-width: 720px) {
+  .card_white  {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card_white {
+    width: 300px;
+  }
+}
